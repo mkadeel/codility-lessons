@@ -43,13 +43,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Lessons\chapter-7-stack-and-queue\brackets.cs" />
+    <Compile Include="Lessons\chapter-7-stack-and-queue\brackets\brackets.cs" />
+    <Compile Include="Lessons\chapter-7-stack-and-queue\fish\fish.cs" />
+    <Compile Include="Lessons\chapter-7-stack-and-queue\nesting\Nesting.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="Lessons\chapter-7-stack-and-queue\brackets.md" />
+    <None Include="Lessons\chapter-7-stack-and-queue\brackets\brackets.md" />
+    <None Include="Lessons\chapter-7-stack-and-queue\fish\Fish.md" />
+    <None Include="Lessons\chapter-7-stack-and-queue\nesting\Nesting.md" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
