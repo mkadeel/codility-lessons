@@ -45,6 +45,10 @@
   <ItemGroup>
     <Compile Include="Lessons\chapter-2-arrays\OddOccurrences.cs" />
     <Compile Include="Lessons\chapter-7-stack-and-queue\brackets.cs" />
+    <Compile Include="Lessons\lesson-3-time-complexity\frog-jump\FrogJump.cs" />
+    <Compile Include="Lessons\lesson-3-time-complexity\prem-missing-elem\PremMissingElem.cs" />
+    <Compile Include="Lessons\lesson-3-time-complexity\tape-equilibrium\tape-equilibrium.cs" />
+    <Compile Include="Lessons\lesson-4-counting-elements\frog-river-one.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -52,6 +56,13 @@
     <None Include="App.config" />
     <None Include="Lessons\chapter-2-arrays\odd-occurrencecs.md" />
     <None Include="Lessons\chapter-7-stack-and-queue\brackets.md" />
+    <None Include="Lessons\lesson-3-time-complexity\frog-jump\frog-jump.md" />
+    <None Include="Lessons\lesson-3-time-complexity\tape-equilibrium\tape-equilibrium.md" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Lessons\lesson-3-time-complexity\prem-missing-elem\prem-missing-elem.txt" />
+    <None Include="Lessons\lesson-4-counting-elements\frog-river-one.md" />
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
