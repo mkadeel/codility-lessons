@@ -53,6 +53,7 @@
     <Compile Include="Lessons\lesson-3-time-complexity\tape-equilibrium\tape-equilibrium.cs" />
     <Compile Include="Lessons\lesson-4-counting-elements\frog-river-one\frog-river-one.cs" />
     <Compile Include="Lessons\lesson-4-counting-elements\missing-interger\missing-integer.cs" />
+    <Compile Include="Lessons\lesson-4-counting-elements\prem-check\prem-check.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -66,6 +67,7 @@
     <None Include="Lessons\lesson-3-time-complexity\frog-jump\frog-jump.md" />
     <None Include="Lessons\lesson-3-time-complexity\tape-equilibrium\tape-equilibrium.md" />
     <None Include="Lessons\lesson-4-counting-elements\missing-interger\missing-integer.md" />
+    <None Include="Lessons\lesson-4-counting-elements\prem-check\prem-check.md" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Lessons\lesson-3-time-complexity\prem-missing-elem\prem-missing-elem.md" />
