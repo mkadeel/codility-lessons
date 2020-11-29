@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Lessons\chapter-1-iterations\binary-gap.cs" />
     <Compile Include="Lessons\chapter-7-stack-and-queue\brackets\brackets.cs" />
     <Compile Include="Lessons\chapter-7-stack-and-queue\fish\fish.cs" />
     <Compile Include="Lessons\chapter-7-stack-and-queue\nesting\Nesting.cs" />
@@ -51,9 +52,13 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Lessons\chapter-1-iterations\binary-gap.md" />
     <None Include="Lessons\chapter-7-stack-and-queue\brackets\brackets.md" />
     <None Include="Lessons\chapter-7-stack-and-queue\fish\Fish.md" />
     <None Include="Lessons\chapter-7-stack-and-queue\nesting\Nesting.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Lessons\chapter-8-leader\dominator\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
