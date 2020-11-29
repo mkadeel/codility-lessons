@@ -47,18 +47,27 @@
     <Compile Include="Lessons\chapter-7-stack-and-queue\brackets\brackets.cs" />
     <Compile Include="Lessons\chapter-7-stack-and-queue\fish\fish.cs" />
     <Compile Include="Lessons\chapter-7-stack-and-queue\nesting\Nesting.cs" />
+    <Compile Include="Lessons\chapter-2-arrays\OddOccurrences.cs" />
+    <Compile Include="Lessons\lesson-3-time-complexity\frog-jump\FrogJump.cs" />
+    <Compile Include="Lessons\lesson-3-time-complexity\prem-missing-elem\PremMissingElem.cs" />
+    <Compile Include="Lessons\lesson-3-time-complexity\tape-equilibrium\tape-equilibrium.cs" />
+    <Compile Include="Lessons\lesson-4-counting-elements\frog-river-one\frog-river-one.cs" />
+    <Compile Include="Lessons\lesson-4-counting-elements\missing-interger\missing-integer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="Lessons\chapter-1-iterations\binary-gap.md" />
-    <None Include="Lessons\chapter-7-stack-and-queue\brackets\brackets.md" />
-    <None Include="Lessons\chapter-7-stack-and-queue\fish\Fish.md" />
-    <None Include="Lessons\chapter-7-stack-and-queue\nesting\Nesting.md" />
+    <None Include="Lessons\chapter-2-arrays\odd-occurrencecs.md" />
+    <None Include="Lessons\chapter-7-stack-and-queue\brackets.md" />
+    <None Include="Lessons\lesson-3-time-complexity\frog-jump\frog-jump.md" />
+    <None Include="Lessons\lesson-3-time-complexity\tape-equilibrium\tape-equilibrium.md" />
+    <None Include="Lessons\lesson-4-counting-elements\missing-interger\missing-integer.md" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Lessons\chapter-8-leader\dominator\" />
+    <Content Include="Lessons\lesson-3-time-complexity\prem-missing-elem\prem-missing-elem.txt" />
+    <None Include="Lessons\lesson-4-counting-elements\frog-river-one\frog-river-one.md" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
