@@ -10,6 +10,7 @@ namespace codility_lessons
     {
         static void Main(string[] args)
         {
+          
         }
     }
 }
