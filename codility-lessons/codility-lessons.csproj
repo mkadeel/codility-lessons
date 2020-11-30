@@ -43,11 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Lessons\chapter-1-iterations\binary-gap.cs" />
-    <Compile Include="Lessons\chapter-7-stack-and-queue\brackets\brackets.cs" />
-    <Compile Include="Lessons\chapter-7-stack-and-queue\fish\fish.cs" />
-    <Compile Include="Lessons\chapter-7-stack-and-queue\nesting\Nesting.cs" />
-    <Compile Include="Lessons\chapter-2-arrays\OddOccurrences.cs" />
+    <Compile Include="Lessons\lesson-1-iterations\binary-gap.cs" />
+    <Compile Include="Lessons\lesson-7-stack-and-queue\brackets\brackets.cs" />
+    <Compile Include="Lessons\lesson-7-stack-and-queue\fish\fish.cs" />
+    <Compile Include="Lessons\lesson-7-stack-and-queue\nesting\Nesting.cs" />
+    <Compile Include="Lessons\lesson-2-arrays\OddOccurrences.cs" />
     <Compile Include="Lessons\lesson-3-time-complexity\frog-jump\FrogJump.cs" />
     <Compile Include="Lessons\lesson-3-time-complexity\prem-missing-elem\PremMissingElem.cs" />
     <Compile Include="Lessons\lesson-3-time-complexity\tape-equilibrium\tape-equilibrium.cs" />
@@ -59,11 +59,8 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="Lessons\chapter-1-iterations\binary-gap.md" />
-    <None Include="Lessons\chapter-2-arrays\odd-occurrencecs.md" />
-    <None Include="Lessons\chapter-7-stack-and-queue\brackets\brackets.md" />
-    <None Include="Lessons\chapter-7-stack-and-queue\fish\Fish.md" />
-    <None Include="Lessons\chapter-7-stack-and-queue\nesting\Nesting.md" />
+    <None Include="Lessons\lesson-2-arrays\odd-occurrencecs.md" />
+    <None Include="Lessons\lesson-7-stack-and-queue\brackets.md" />
     <None Include="Lessons\lesson-3-time-complexity\frog-jump\frog-jump.md" />
     <None Include="Lessons\lesson-3-time-complexity\tape-equilibrium\tape-equilibrium.md" />
     <None Include="Lessons\lesson-4-counting-elements\missing-interger\missing-integer.md" />
@@ -74,7 +71,8 @@
     <None Include="Lessons\lesson-4-counting-elements\frog-river-one\frog-river-one.md" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Lessons\chapter-8-leader\dominator\" />
+    <Folder Include="Lessons\lesson-5-prefix-sums\" />
+    <Folder Include="Lessons\lesson-8-leader\dominator\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
