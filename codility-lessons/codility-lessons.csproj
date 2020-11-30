@@ -49,6 +49,9 @@
     <Compile Include="Lessons\lesson-5-prefix-sums\min-avg-two-slice\min-avg-two-slice.cs" />
     <None Include="Lessons\lesson-5-prefix-sums\min-avg-two-slice\min-avg-two-slice.md" />
     <Compile Include="Lessons\lesson-5-prefix-sums\passing-cars\passing-cars.cs" />
+    <Compile Include="Lessons\lesson-6\distinct\distinct.cs" />
+    <Compile Include="Lessons\lesson-6\max-product-of-three\max-product-of-three.cs" />
+    <Compile Include="Lessons\lesson-6\triangle\triangle.cs" />
     <Compile Include="Lessons\lesson-7-stack-and-queue\brackets\brackets.cs" />
     <Compile Include="Lessons\lesson-7-stack-and-queue\fish\fish.cs" />
     <Compile Include="Lessons\lesson-7-stack-and-queue\nesting\Nesting.cs" />
@@ -72,6 +75,9 @@
     <None Include="Lessons\lesson-4-counting-elements\missing-interger\missing-integer.md" />
     <None Include="Lessons\lesson-4-counting-elements\prem-check\prem-check.md" />
     <None Include="Lessons\lesson-5-prefix-sums\passing-cars\passing-cars.md" />
+    <None Include="Lessons\lesson-6\distinct\distinct.md" />
+    <None Include="Lessons\lesson-6\max-product-of-three\max-product-of-three.md" />
+    <None Include="Lessons\lesson-6\triangle\triangle.md" />
     <None Include="Lessons\lesson-7-stack-and-queue\brackets\brackets.md" />
     <None Include="Lessons\lesson-7-stack-and-queue\fish\Fish.md" />
     <None Include="Lessons\lesson-7-stack-and-queue\nesting\Nesting.md" />
