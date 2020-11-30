@@ -44,6 +44,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Lessons\lesson-1-iterations\binary-gap.cs" />
+    <Compile Include="Lessons\lesson-5-prefix-sums\count-div\count-div.cs" />
+    <Compile Include="Lessons\lesson-5-prefix-sums\genome-query\genome-query.cs" />
+    <Compile Include="Lessons\lesson-5-prefix-sums\min-avg-two-slice\min-avg-two-slice.cs" />
+    <None Include="Lessons\lesson-5-prefix-sums\min-avg-two-slice\min-avg-two-slice.md" />
+    <Compile Include="Lessons\lesson-5-prefix-sums\passing-cars\passing-cars.cs" />
     <Compile Include="Lessons\lesson-7-stack-and-queue\brackets\brackets.cs" />
     <Compile Include="Lessons\lesson-7-stack-and-queue\fish\fish.cs" />
     <Compile Include="Lessons\lesson-7-stack-and-queue\nesting\Nesting.cs" />
@@ -60,18 +65,22 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="Lessons\lesson-2-arrays\odd-occurrencecs.md" />
-    <None Include="Lessons\lesson-7-stack-and-queue\brackets.md" />
+    <None Include="Lessons\lesson-5-prefix-sums\count-div\count-div.md" />
+    <None Include="Lessons\lesson-5-prefix-sums\genome-query\genome-query.md" />
     <None Include="Lessons\lesson-3-time-complexity\frog-jump\frog-jump.md" />
     <None Include="Lessons\lesson-3-time-complexity\tape-equilibrium\tape-equilibrium.md" />
     <None Include="Lessons\lesson-4-counting-elements\missing-interger\missing-integer.md" />
     <None Include="Lessons\lesson-4-counting-elements\prem-check\prem-check.md" />
+    <None Include="Lessons\lesson-5-prefix-sums\passing-cars\passing-cars.md" />
+    <None Include="Lessons\lesson-7-stack-and-queue\brackets\brackets.md" />
+    <None Include="Lessons\lesson-7-stack-and-queue\fish\Fish.md" />
+    <None Include="Lessons\lesson-7-stack-and-queue\nesting\Nesting.md" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Lessons\lesson-3-time-complexity\prem-missing-elem\prem-missing-elem.md" />
     <None Include="Lessons\lesson-4-counting-elements\frog-river-one\frog-river-one.md" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Lessons\lesson-5-prefix-sums\" />
     <Folder Include="Lessons\lesson-8-leader\dominator\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
