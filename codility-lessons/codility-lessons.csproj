@@ -59,6 +59,7 @@
     <Compile Include="Lessons\lesson-4-counting-elements\frog-river-one\frog-river-one.cs" />
     <Compile Include="Lessons\lesson-4-counting-elements\missing-interger\missing-integer.cs" />
     <Compile Include="Lessons\lesson-4-counting-elements\prem-check\prem-check.cs" />
+    <Compile Include="Lessons\lesson-8-leader\leader\leader.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

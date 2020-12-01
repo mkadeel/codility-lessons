@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace codility_lessons
+namespace codility_lessons.Lessons.lesson_8_leader.leader
 {
-    class Program
+    public class leader
     {
-        static void Main(string[] args)
+        public int Solution()
         {
             int[] A = { 4, 6, 6, 6, 6, 8, 8 };
             int N = A.Length;
@@ -34,7 +34,7 @@ namespace codility_lessons
                 candidate = value;
             int leader = -1;
             int count = 0;
-            for(int i=0;i<N;i++)
+            for (int i = 0; i < N; i++)
             {
                 if (A[i] == candidate)
                     count++;
@@ -42,7 +42,7 @@ namespace codility_lessons
 
             if (count > N / 2)
                 leader = candidate;
-            Console.WriteLine(leader);
+            return leader;
         }
     }
 }
