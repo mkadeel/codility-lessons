@@ -6,43 +6,26 @@ using System.Threading.Tasks;
 
 namespace codility_lessons
 {
-    class Program
+   public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            int[] A = { 4, 6, 6, 6, 6, 8, 8 };
-            int N = A.Length;
-            int size = 0;
-            int value = 0;
-            for (int i = 0; i < N; i++)
+            int[] A = { 5, -7, 3, 5, -2, 4, -1 };
+            int max_slice, max_ending;
+            max_ending = max_slice = 0;
+            foreach(int a in A)
             {
-                if (size == 0)
-                {
-                    size++;
-                    value = A[i];
-                }
-                else if (value != A[i])
-                {
-                    size--;
-                }
-                else
-                    size++;
+                max_ending = max(0, max_ending + a);
+                max_slice= max(max_slice, max_ending);
             }
 
-            int candidate = -1;
-            if (size > 0)
-                candidate = value;
-            int leader = -1;
-            int count = 0;
-            for(int i=0;i<N;i++)
-            {
-                if (A[i] == candidate)
-                    count++;
-            }
+            Console.WriteLine( max_slice);
 
-            if (count > N / 2)
-                leader = candidate;
-            Console.WriteLine(leader);
+        }
+
+        static int max(int a , int b)
+        {
+            return a < b ? b : a;
         }
     }
 }
