@@ -43,10 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Lessons\lesson-09\max-double-slice-sum.cs" />
     <Compile Include="Lessons\lesson-1-iterations\binary-gap.cs" />
     <Compile Include="Lessons\lesson-5-prefix-sums\count-div\count-div.cs" />
     <Compile Include="Lessons\lesson-5-prefix-sums\genome-query\genome-query.cs" />
     <Compile Include="Lessons\lesson-5-prefix-sums\min-avg-two-slice\min-avg-two-slice.cs" />
+    <None Include="Lessons\lesson-09\max-double-slice-sum.md" />
     <None Include="Lessons\lesson-5-prefix-sums\min-avg-two-slice\min-avg-two-slice.md" />
     <Compile Include="Lessons\lesson-5-prefix-sums\passing-cars\passing-cars.cs" />
     <Compile Include="Lessons\lesson-6\distinct\distinct.cs" />
