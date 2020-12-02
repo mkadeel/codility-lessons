@@ -43,12 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Lessons\lesson-09\max-double-slice-sum.cs" />
+    <Compile Include="Lessons\lesson-09\max-double-slice-sum\max-double-slice-sum.cs" />
     <Compile Include="Lessons\lesson-1-iterations\binary-gap.cs" />
     <Compile Include="Lessons\lesson-5-prefix-sums\count-div\count-div.cs" />
     <Compile Include="Lessons\lesson-5-prefix-sums\genome-query\genome-query.cs" />
     <Compile Include="Lessons\lesson-5-prefix-sums\min-avg-two-slice\min-avg-two-slice.cs" />
-    <None Include="Lessons\lesson-09\max-double-slice-sum.md" />
+    <None Include="Lessons\lesson-09\max-double-slice-sum\max-double-slice-sum.md" />
     <None Include="Lessons\lesson-5-prefix-sums\min-avg-two-slice\min-avg-two-slice.md" />
     <Compile Include="Lessons\lesson-5-prefix-sums\passing-cars\passing-cars.cs" />
     <Compile Include="Lessons\lesson-6\distinct\distinct.cs" />
@@ -95,6 +95,9 @@
     <None Include="Lessons\lesson-3-time-complexity\prem-missing-elem\prem-missing-elem.md" />
     <None Include="Lessons\lesson-4-counting-elements\frog-river-one\frog-river-one.md" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Lessons\lesson-09\max-profit\" />
+    <Folder Include="Lessons\lesson-09\max-slice-sum\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
