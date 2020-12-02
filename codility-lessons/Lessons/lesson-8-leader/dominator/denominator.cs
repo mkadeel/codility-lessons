@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace codility_lessons.Lessons.lesson_8_leader.dominator
+namespace codility_lessons.Lessons.lesson_8_leader
 {
     public class denominator
     {

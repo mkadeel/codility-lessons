@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace codility_lessons.Lessons.lesson_8_leader.dominator
+namespace codility_lessons.Lessons.lesson_8_leader.equileader
 {
-    public class denominator
+    public class equileader
     {
         public int solution(int[] A)
         {
