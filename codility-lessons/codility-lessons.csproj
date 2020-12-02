@@ -62,9 +62,14 @@
     <Compile Include="Lessons\lesson-4-counting-elements\frog-river-one\frog-river-one.cs" />
     <Compile Include="Lessons\lesson-4-counting-elements\missing-interger\missing-integer.cs" />
     <Compile Include="Lessons\lesson-4-counting-elements\prem-check\prem-check.cs" />
+    <Compile Include="Lessons\lesson-8-leader\equileader\equileader.cs" />
+    <Compile Include="Lessons\lesson-8-leader\dominator\denominator.cs" />
+    <Compile Include="Lessons\lesson-8-leader\leader\leader.cs" />
     <Compile Include="Lessons\lesson-7-stack-and-queue\stone-wall\stone-wall.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <None Include="Lessons\lesson-8-leader\equileader\equileader.md" />
+    <None Include="Lessons\lesson-8-leader\dominator\denominator.md" />
     <None Include="Lessons\lesson-7-stack-and-queue\stone-wall\stone-wall.md" />
   </ItemGroup>
   <ItemGroup>
@@ -88,8 +93,6 @@
     <None Include="Lessons\lesson-3-time-complexity\prem-missing-elem\prem-missing-elem.md" />
     <None Include="Lessons\lesson-4-counting-elements\frog-river-one\frog-river-one.md" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Lessons\lesson-8-leader\dominator\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
